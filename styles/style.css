@@ -1,0 +1,94 @@
+/*shared styles*/
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*nav styles are here*/
+
+nav{
+    background-image: url(../styles/images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFF;
+    display: flex;
+    justify-content: right;
+    padding: 0 230px;
+
+}
+.banner-title{
+    margin-left: 1000px;
+    width: 525px;
+    height: 228px;
+    font-size: 65px;
+    text-align: right;
+}
+.banner-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    
+}
+.nav-banner{
+   justify-content: space-around;
+    align-items: center;
+    /*width: 230px;*/
+    padding-top: 70px;
+}
+.btn{
+    padding: 20px 25px;
+    border: none;
+    margin: 5px 6px 0 1396px;
+    border-radius: 5px;
+    color: #005FAC;
+}
+/*main section starts here*/
+
+.person{
+    height: 500px;
+    width: 450px;
+    margin-left: 30px;
+    padding: 0 100px
+}
+.failure{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 150px 100px;
+    width: 100%
+}
+.failure-title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+
+}
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #444343;
+
+}
+.failure-list{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400; 
+    font-style: normal;
+    margin-left: 25px;
+
+}
+.failure-container{
+    /*margin:350px 400px 0 100px;*/
+    /*width: 416px;*/
+    /*padding-left: 200px;*/
+    padding-top: 250px;
+    text-align: left;
+}
