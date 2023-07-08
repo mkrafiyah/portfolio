@@ -9,7 +9,7 @@
 /*nav styles are here*/
 
 nav{
-    background-image: url(../styles/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,8 +82,13 @@ nav{
     font-size: 16px;
     font-weight: 400; 
     font-style: normal;
-    margin-left: 25px;
+    /*margin-left: 0px;*/
+    list-style:none ;
 
+
+}
+.failure-list > li::before{
+    content: '✓';
 }
 .failure-container{
     /*margin:350px 400px 0 100px;*/
