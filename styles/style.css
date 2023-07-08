@@ -97,3 +97,134 @@ nav{
     padding-top: 250px;
     text-align: left;
 }
+/*plan section*/
+
+.plan-container img{
+     width: 80px;
+     background: #FFF;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+.plan-title{
+    text-align: center;
+    padding: 200px 600px 100px 700px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color:  #151414;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 300px 400px 300px;
+}
+.plan-container{
+    /*padding: 200px 100px;*/
+}
+.icon-title{
+    color:  #151414;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.icon-container p{
+    color:  #737272;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+
+
+}
+
+/*mindset banner*/
+
+.mindset-container{
+    background-image: url(../images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+
+    display: flex;
+    justify-content: left;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    /*color: #FFF;*/
+    margin-top: 0;
+    
+    
+    
+}
+.gradient{
+    width:1200px
+}
+.mindset-container img{
+    height: 500px;
+    
+    
+}
+
+.mindset-description{
+    /*text-align: left;*/
+    /*padding: 0 0 1000px 0;*/
+    position: absolute;
+    padding: 180px 100px 100px 100px;
+   
+}
+.mindst-title{
+    color: #FFF;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.mindset-btn{
+    color:#005FAC;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+/*footer start*/
+.foot-container{
+     margin-top: 400px;
+     padding: 100px;
+     background-color: #151414;
+     color: #FFF;
+     display: flex;
+     justify-content: space-around;
+}
+.foot-title{
+    font-size: 45px;
+}
+.foot-pera{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.foot-right-title{
+    padding-bottom: 15px;
+}
+.email{
+   
+    margin-top: 20px;
+    
+    border: 1px solid white;
+    border-radius: 5px;
+   
+    color: white;
+    border: none;
+    
+}
+.foot-btn{
+    margin-top: 20px;
+    padding: 20px 25px;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    background: #005FAC;
+}
